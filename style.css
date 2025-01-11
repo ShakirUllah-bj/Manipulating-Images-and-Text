@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 70%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px gray;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  margin: 5px 2px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: x-small;
+  cursor: pointer;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 2em 0;
+}
