@@ -8,13 +8,13 @@ body {
 }
 
 #container {
-  width: 70%;
-  max-height: 90vh;
+  width: 100%;
+  /* max-height: 90vh; */
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 5px 5px 8px gray;
   text-align: center;
-  overflow-y: scroll;
+  /* overflow-y: auto; */
   background-color: black;
 }
 
@@ -40,13 +40,14 @@ button {
   background-color: blue;
   border: none;
   border-radius: 2px;
-  font-size: x-small;
+  font-size: small;
+  color: white;
   cursor: pointer;
 }
 
 img {
-  width: 350px;
-  height: 200px;
+  width: 70%;
+  height: 40%;
   border-radius: 5%;
-  margin: 5px;
+  margin: 5px auto;
 }

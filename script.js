@@ -33,5 +33,8 @@ else{
 
 document.getElementById("hideBtn").addEventListener("click", () => {
     document.querySelector("img").style.display = "none";
-    document.getElementById("hideBtn").style.display = "none";
+})
+
+document.getElementById("showBtn").addEventListener("click", () => {
+    document.querySelector("img").style.display = "block";
 })
