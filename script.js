@@ -1,7 +1,7 @@
 
 let output = document.getElementById("output");
 
-
+// SETTING PARAGRAPH TEXT
 document.getElementById("setParaText")
 .addEventListener("click", function(){
     let setParagraph = document.getElementById("setParagraph");
@@ -14,6 +14,19 @@ document.getElementById("setParaText")
         setParagraph.textContent = inputText.value;
         output.textContent = "the content of paragraph is updated.";
         inputText.value = "";
-    }
-   
+    }   
 })
+
+// TOGGLE BTN CODE  
+document.getElementById("toggleBtn").addEventListener("click", () => {
+let image = document.querySelector("img");
+if(image.src.includes("image1.png")){
+image.src = "./image2.png";
+output.textContent = "image changed to image 2"
+}
+else{
+    image.src = "./image1.png";
+    output.textContent = "image changed to image 1"
+}
+})
+

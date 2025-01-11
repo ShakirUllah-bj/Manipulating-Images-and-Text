@@ -45,8 +45,8 @@ button {
 }
 
 img {
-  width: 400px;
+  width: 350px;
   height: 200px;
   border-radius: 5%;
-  margin-top: 1em;
+  margin: 5px;
 }
