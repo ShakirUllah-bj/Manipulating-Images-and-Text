@@ -1,3 +1,6 @@
+* {
+  color: rgb(126, 122, 122);
+}
 body {
   display: flex;
   justify-content: center;
@@ -6,11 +9,18 @@ body {
 
 #container {
   width: 70%;
-  height: auto;
+  max-height: 90vh;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 5px 5px 8px gray;
   text-align: center;
+  overflow-y: scroll;
+  background-color: black;
+}
+
+#setParagraph {
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
 }
 
 input {
@@ -18,7 +28,8 @@ input {
   margin: 5px 2px;
   outline: none;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  background: transparent;
 }
 
 button {
@@ -26,7 +37,7 @@ button {
   margin: 5px;
   outline: none;
   background: black;
-  color: white;
+  background-color: blue;
   border: none;
   border-radius: 2px;
   font-size: x-small;
@@ -34,8 +45,8 @@ button {
 }
 
 img {
-  width: 300px;
+  width: 400px;
   height: 200px;
-  border-radius: 50%;
-  margin: 2em 0;
+  border-radius: 5%;
+  margin-top: 1em;
 }
